@@ -1,2 +1,0 @@
-name = "rati"
-print(name)
