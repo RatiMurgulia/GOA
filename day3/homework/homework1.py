@@ -1,9 +1,6 @@
-# მომხმარებელს შემოატანინეთ სახელი გვარი ასაკი და სიმაღლე და დაპრინტეთ წინადადებაში ყველა ეს მონაცემი
+# მომხმარებელს შემოატანინეთ ასაკი,შემოტანილი ასაკი გაამრავლეთ 7-ზე და გაყეთ 3-ზე
+# მიღებულ ასაკს დაუმატეთ 4-ისა და 9-ის ნამრავლის ჯამი
 
-my_name = input("Enter your name: ")
-my_surname = input("Enter your surname: ")
-my_age = int(input("Enter your age: "))
-my_height = float(input("Enter your height: "))
-
-print("My name is "+ my_name+",","my surname is " + my_surname+","+"my age is " + 
-       str(my_age)+","+"and my height is " + str(my_height))
+users_age = int(input("enter the users age: "))
+my_sum = users_age * 7 // 3
+print(my_sum + 4 * 9)

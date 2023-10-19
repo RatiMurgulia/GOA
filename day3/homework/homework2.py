@@ -1,7 +1,6 @@
-# მომხმარებელს შეეკითხეთ ასაკი და დაუპრინტეთ 25 წელში რამდენი წლის იქნება
+# მანქანის საწყისი ფასი იყო 7000 ლარი და გაძვირდა 62%-ით
+# რამდენი ლარით მოიმატა მანქანის ღირებულებამ
 
-age = int(input("Enter Your Age: "))
-year = int(input("Enter year: "))
-new_age = year + (age)
-
-print("After 25 yers I'm now " + str(new_age) + " years old")
+car_first_price = 7000
+car_last_price = car_first_price / 62 * 100
+print(car_last_price - car_first_price)
