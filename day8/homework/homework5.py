@@ -3,6 +3,7 @@
 my_str = input("Enter Any Text: ")
 print(my_str)
 
+
 my_arr = ["my str", "any text", 5, "Hello", "python", "World", "programing"]
 print(my_arr[3] + " " + my_arr[5])
 
@@ -14,4 +15,7 @@ for i in my_arr:
             print(i + " " + j)
         
 
+my_str = ["Hello World"]
+final_str = "".join(my_str)
+print(final_str)
     

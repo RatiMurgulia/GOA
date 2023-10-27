@@ -7,7 +7,8 @@
 # დამატებული 13 გაყოფილი 10 და გამრავებული 264 ზე
 
 students = int(input("Enter Students Quantiti: "))
+price = 100
 
-print("Entered in Goa " + str(students) + " students" + "," + "and total money is " + str(students * 100) + " Gel")
+print("Entered in Goa " + str(students) + " students" + "," + "and total money is " + str(students * price) + " Gel")
 print("Entered in Goa " + str(students) + " students" + "," + "and total money is " + str(students - 37 + 13 / 10 * 264 * 100))
 

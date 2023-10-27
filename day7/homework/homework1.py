@@ -9,11 +9,9 @@ for element in my_arr:
 my_arr = ["Molodini", "Djanezashvili", "Tkheshelashvili", "Philishvili"]
 print(my_arr[0])
 
-# new_arr = []
-# i = 0
-# while i < len(my_arr):
-#     if i == "Molodini":
-#         new_arr.append(my_arr[i])
-#     i += 1
-# print(new_arr)
-
+my_arr = ["Molodini", "Djanezashvili", "Tkheshelashvili","Philishvili"]
+new_arr = []
+for i in my_arr:
+    if i == "Molodini":
+        new_arr.append(i)
+print(new_arr)
