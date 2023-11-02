@@ -1,32 +1,14 @@
 # turtle-თი რენდომ რიცხვებით დახაზეთ შედევრი  
 # forward(random.randint(100))
 
-# import turtle
-from turtle import *
-# import random
-from random import randint
+from turtle import * # turtle ბიბლიოთეკიდან ვაიმპორტებთ ყველა ფუნქციას
+import random # random შემოტანა
+speed(100) # სიჩქარე
+width(random.randint(1,10)) # სისქე 1-დან 10-მდე
+colors = ["red", "green", "blue", "purple", "yellow"] # ფერების სია
+for i in range(10000): # for ციკლი 10000-მდე
+    color(random.choice(colors)) # ფერების random არჩევა colors-სიიდან
+    forward(random.randint(0,100)) # წინ random არჩევა 0-დან 100-მდე
+    left(random.randint(0, 100)) # მარცხნივ random არჩევა 0-დან 100-მდე
 
-pensize(10)
-colormode(255)
-
-while True:
-    color(randint(0, 255), 
-          randint(0, 255), 
-          randint(0, 255))
-     
-    begin_fill()
-    circle(20)
-    end_fill()
-    penup()
-    pendown()
-    forward(200)
-    left(50)
-    right(1)
-    speed(50000)
-    goto(0,5)
-     
-    goto(randint(-500, 500), randint(-300, 270))
-    width(30)
-
-    pendown()
-
+exitonclick()
