@@ -4,4 +4,4 @@ age = int(input("Enter Your Age: "))
 year = int(input("Enter year: "))
 new_age = year + (age)
 
-print("After 25 yers I'm now " + str(new_age) + " years old")
+print("My age is " + str(age) + " and after " + str(year) + " years I will be " + str(new_age) + " years old")

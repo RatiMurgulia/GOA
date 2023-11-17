@@ -4,3 +4,4 @@ def square_sum(numbers):
     for num in numbers:
         my_sum += (num ** 2)
     return my_sum
+print(square_sum([3, 5, 7]))

@@ -8,3 +8,4 @@
 # explanation განმარტება
 # stored შენახული
 # avoid თავიდან აცილება
+

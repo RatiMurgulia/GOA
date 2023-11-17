@@ -21,8 +21,8 @@ for i in range(3):
 
 for i in range(4):
     print(str(i) + " Rati")
-
 # დაპრინტავს 0 Rati 1 Rati 2 Rati 3 Rati
+
 i = 5
 while i > 0: # სანამ i > 0-ზე
     print(i)
@@ -47,3 +47,16 @@ while seats > 0:
 # 3 Sell Ticket
 # 2 Sell Ticket
 # 1 Sell Ticket
+
+
+
+
+
+
+
+
+
+
+
+
+

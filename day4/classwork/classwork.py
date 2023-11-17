@@ -1,4 +1,4 @@
-# examoles of automatic data type conversion
+# examples of automatic data type conversion
 
 x = 5 # integer
 y = 2 # integer
