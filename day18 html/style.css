@@ -1,0 +1,24 @@
+body{
+    background-color: red;
+    background-image: url("/day5/img/246-2464599_mr-robot-desktop-wallpaper.jpg");
+}
+/* html კოდში background-ი გავაფერადეთ წითლად */
+/* html კოდში background-ში ჩავსვით სურათი */
+
+p{
+    color: red;
+    background-color: green;
+}
+/* html კოდში ყველა <p> თეგი გავაფერადეთ წითლად */
+/* თუ გვინდა რომ html კოდში მივწვდეთ კონკრეტულ ელემენტებს მაშინ უნდა გამოვიყენოთ კლასები */
+/* html კოდში ყველა <p> თეგის background-ი გავაფერადეთ მწვანედ */
+
+b{
+    color: blue;
+}
+/* html კოდში <b> თეგი გავაფერადეთ ლურჯად */
+
+.gamarjoba{
+    color: blue;
+}
+/* html კოდიდან გამოვიძახეთ <p> თეგზე მინიჭებული class-ი სახელად gamarjoba და გავაფერადეთ <p> თეგი ლურჯად */
