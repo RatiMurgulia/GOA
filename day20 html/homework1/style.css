@@ -1,0 +1,19 @@
+body{
+    background-image: url(/img/green-bg-large.svg);
+}
+
+.satauri{
+    color: red;
+}
+
+.facebook{
+    color: blue;
+}
+
+.mail{
+    color: blue;
+}
+
+.github{
+    color: blue;
+}
