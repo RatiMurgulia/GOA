@@ -1,0 +1,18 @@
+div{
+    background-color: black;
+}
+/* html ფაილში ჩვენს მიერ <div> თეგში მოქცეული ელემენტების background ფერი გავხადეთ შავი */
+
+/* html ფაილში class-ით მივწვდით ჩვენს მიერ შექმნილ ცარიელ <div> ს */
+/* width სიგანე 
+   height სიმაღლე
+   border-radius: ;-ით ფორმას ვაძლევთ ჩვენს მიერ მონიშნულ ობიექტს
+   0% არის კვადრატი და 50% არის წრე
+   ასევე შეგვიძლია გამოვიყენოთ px-ელებიც*/
+.div1{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
