@@ -1,0 +1,17 @@
+body{
+    background-image: url("/img/pexels-james-wheeler-414612.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+}
+
+.maintitle{
+    color: greenyellow;
+}
+
+/* .maintitle{
+    color:red;
+    background-color: yellow;
+    width: 259px; */
+    /* position: relative;
+    left: 750px; */
+    

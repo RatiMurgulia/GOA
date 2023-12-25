@@ -1,0 +1,37 @@
+/* <h1> თეგი გავაფერადეთ წითლად */
+h1{
+    color:red
+}
+
+/* <p> თეგი გავადიდეთ 50 პიქსელით */
+/* <p> თეგი გავაფერადეთ ლურჯად */
+p{
+    font-size: 50px;
+    color: blue;
+}
+
+p{
+    font-size: 200px;
+    background-color: blue;
+    color:red;
+    text-align: center;
+}
+
+
+button{
+    font-size: 50px;
+    background-color: black;
+    color:lawngreen
+}
+
+h1{
+    font-size: 20px;
+    background-color: red;
+    color:
+
+}
+
+.klasi{
+    color:red;
+}
+

@@ -1,0 +1,39 @@
+<!-- 
+    არსებობს css-ის სამი ტიპი:
+    internal
+    external
+    inline
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- ეს არის internal css -->
+     <!-- ყველა <p> თეგზე მოვახდინეთ გასტილვა -->
+     <style>
+        p{
+            color:blue;
+        }
+
+        h1{
+            color:red;
+            background-color: green;
+            width: 100px
+        }
+     </style>
+
+</head>
+<body>
+    <!-- ეს არის inline css tyle -->
+    <h1 style="color:red; background-color: green; width: 100px">გამარჯობა</h1>
+    <h1>გამარჯობა 2</h1>
+
+    <p>hello world</p>
+    <p>goa best</p>
+    <p>hello</p>
+</body>
+</html>
+

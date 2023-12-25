@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br>
+        <br>
+ <!-- <textarea> თეგი ქმნის ტექსტის შესაყვან კონტრორილებად ჯანჯარას -->
+        <textarea>Send message</textarea>
+
+<!-- <select> თეგი ქმნის ჩამოსაშლელ სიას და <option> თეგს გადავცემთ ამ ჩამოლსაშლელი სიის სახელებს -->
+        <select>
+
+            <option>product</option>
+            <option>price</option>
+            <option>buy</option>
+
+            <input type="button" value="Send">
+            <input type="reset" >
+    
+        </select>
+
+        <input type="button" value="Send">
+        <input type="reset">
+        <input type="submit" value="Log in">
+
+    </form>
+
+</body>
+</html>
+
+
+
+<form>
+    <h2>Contact Us</h2>
+
+    <label for="type">Type: </label>
+
+    <select id="type">
+      <option>General</option>
+      <option>Payment Issue</option>
+      <option>Other</option>
+    </select>
+
+    <br>
+
+    <br>
+
+    <label for="name">Name: </label>
+    <input type="text" id="name">
+
+    <br>
+    <br>
+
+    <label for="message">Message: </label>
+    <br>
+
+    <textarea></textarea>
+
+    <br>
+
+    <input type="submit" value="Send">
+
+  </form>
+
+
+
+<!-- <audio> თეგის გამოყენებით შეგვიძლია mp3 ფორმატის განთავსება საიტზე -->
+<!-- controls ატრიბუტი ამატებს audio კონტროლს როგორიცაა დაკვრა პაუზა და ხმა -->
+<!-- loop ატრიბუტის გამოყენებისას audio ყოველ ჯერზე დაიწყება თავიდან -->
+<!-- autoplay ატრიბუტის გამოყენებისას audio საიტზე შესვლის დროს ავყომატურად ჩაირთვება -->
+  <br>
+  <br>
+  <audio src="/day26 html/mp3/Sam Day - EVERY TIME I SEE YOUR FACE  House  NCS - Copyright Free Music.mp3" type="audio/ogg" controls loop autoplay>
+      Audio not supported
+  </audio>
+
+
+<!-- Your browser does not support the audio element. -->
+<!-- ზოგჯერ ბრაუზერს არ აქვს mp3 მხარდაჭერა <source> ელემენტი საშუალებას გვაძლევს მივუთითოთ ალრეტნატიული audio ფაილები -->
+<!-- type="" ის საშუალებითნ შეგვიძლია გავუწეროთ ალტერნატიული audio ფაილები -->
+<!-- audio ფორმატები -->
+<!-- MP3 = audio/mpeg
+     OGG = audio/ogg
+     WAV = audio/wav -->
+  <audio controls loop>
+    <source src="/day26 html/mp3/Sam Day - EVERY TIME I SEE YOUR FACE  House  NCS - Copyright Free Music.mp3" type="audio/ogg">
+    <source src="/day26 html/mp3/Sam Day - EVERY TIME I SEE YOUR FACE  House  NCS - Copyright Free Music.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+
+<!-- Your browser does not support the video tag. -->
+<!-- <video> თეგის გამოყენებით ჩვენ შეგვიძლია ვიდეოს განთავსება საიტზე -->
+<!-- <source> ელემენტი საშუალებას გვაძლევს მივუთითოთ ალრეტნატიული video ფაილები რათა ჩვენი ვიდეო გაიხსნას ყველა ბრაუზერში -->
+<!-- type="" ის საშუალებითნ შეგვიძლია გავუწეროთ ალტერნატიული video ფაილები -->
+
+  <video controls width="700" height="240">
+      <source src="/day26 html/vid/index.mp4" type="video.mp4">
+      <source src="/day26 html/vid/index.mp4" type="video.ogg">
+  </video>
+  
+
+  <!-- <iframe> თეგის გამოყენებით შეგვიძლია ვიდეო დავამატოთ ინტერნეტიდან ლინკის საშუალებით -->
+  <!-- src="youtubelink"  -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/z63KyqrIpok?si=O-_wxPavWVf5cHM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
