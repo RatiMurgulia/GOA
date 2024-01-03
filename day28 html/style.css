@@ -1,0 +1,43 @@
+/* 1 */
+h1{
+    color: red;
+}
+
+/* 2 */
+p{
+    font-size: 50px;
+    color: green
+    ;
+}
+
+/* 3 */
+button{
+    font-size: 30px;
+    background-color: blue;
+    /* border-radius = გვერდების დამრგვალება */
+    border-radius: 20px;
+}
+
+/* 4 */
+h2{
+    color: green;
+}
+
+/* 5 */
+/* <h3> და <p> ელემენტი გავსტილეთ ერთდროულად css-ში */
+h3,p{
+    color:green;
+    font-size: 30px;
+    background-color: brown;
+    text-align: center;
+}
+
+/* 5 */
+h4{
+    /* font-family ცვლის ტექსტის კალიგრაფიას და ვიზუალს */
+    /* ასევე შეგვიძლია font-family-ის დაიპორტება ინტერნეტიდან fonts.google.com-იდან*/
+    font-family:'Courier New', Courier, monospace;
+    color: green;
+    font-size: 50px;
+}
+

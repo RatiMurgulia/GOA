@@ -1,0 +1,25 @@
+/* 1 */
+P{
+    color: red;
+    font-size: ;
+}
+/* <b> შვილი ელემენტი ცალკე გავსტილეთ და მივეცით ლურჯი ფერი */
+b{
+    color: blue;
+}
+
+/* 2 */
+h1{
+    color: purple;
+    text-align: center;
+
+}
+
+u{
+    color: orange;
+}
+
+/* 3 */
+.helloworld h1{
+    color:aqua;
+}

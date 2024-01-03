@@ -1,37 +1,28 @@
-/* <h1> თეგი გავაფერადეთ წითლად */
 h1{
-    color:red
-}
-
-/* <p> თეგი გავადიდეთ 50 პიქსელით */
-/* <p> თეგი გავაფერადეთ ლურჯად */
-p{
-    font-size: 50px;
-    color: blue;
+    /* font-size = ელემენტების ზომა */
+    font-size: 30px;
+    color: red;
 }
 
 p{
-    font-size: 200px;
-    background-color: blue;
-    color:red;
+    font-size: 80px;
+    background-color: black;
+    color: red;
+    /* text-align = ტექსტის გადაადგილება: center left right */
     text-align: center;
-}
 
+}
 
 button{
-    font-size: 50px;
+    font-size: 40px;
     background-color: black;
-    color:lawngreen
+    color: lawngreen;
+    /* text-align არ მუშაობს <button> თეგზე */
 }
 
 h1{
-    font-size: 20px;
-    background-color: red;
-    color:
-
+    font-size: 80px;
+    background-color: lawngreen;
+    color: black;
+    text-align: center;
 }
-
-.klasi{
-    color:red;
-}
-
