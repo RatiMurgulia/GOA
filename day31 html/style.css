@@ -1,0 +1,103 @@
+/* 1 */
+.textdecoration{
+    color: #F28D35;
+    text-decoration: overline; /* ხაზს უსმევს მაღლა */
+    text-decoration: line-through; /* ხაზს უსმევს შუაში */
+    text-decoration: overline line-through underline; /* შეგვიძლია გადავცეთ სამივე */
+
+    text-decoration-color: red; /* ცვლის ტექსტზე გასმული ხაზის ფერს */
+
+    text-decoration-style: double; /* გაუსმევს ორმაგ ხაზს ქვემოთ */
+    text-decoration-style: dotted; /* გაუსმევს წერტილოვან ხაზს ქვემოთ */
+    text-decoration-style: dashed; /* გაუსმევს ტირეებს ქვემოთ */
+    text-decoration-style: wavy; /* გაუსმევს ტალღოვან ხაზს ქვემოთ */
+
+    text-decoration-thickness: 5px; /* გაზრდის გავლებული ხაზების ზომას */
+
+    text-decoration: underline red wavy 5px; /* შეგვიძლია ეს ყველაფერი დავწეროთ ერთ ხაზზე (shortand) */
+
+}
+
+/* 2 */
+.capitalize{
+    text-transform: uppercase; /* ტექსტში ყველა სიმბოლო გადიდდება */
+    text-transform: lowercase; /* ტექსტში ყველა სიმბოლო დაპატარავდება */
+    text-transform: capitalize; /* ტექსტში გაადიდებს პირველ სიმბოლოებს */
+}
+
+/* 3 */
+.textshadow{
+    color: red;
+    text-shadow: 2px 2px; /* ტექტს აძლევს ჩრდილს 1)ჰორიზონტალური 2)ვერტიკალური */
+    text-shadow: 3px 3px 2px; /* მესამე მნიშვნელობის გადაცემა მოქმედებს ტექსტის ჩრდილის ბლარზე */
+    text-shadow: 2px 2px 1px yellow; /* შეგვიძლია ჩრდილს მივცეთ ფერი */
+    text-shadow: -2px 3px; /* შეგვიძლია გადავცეთ ნეგატიური მნიშვნელობებიც */
+}
+
+/* 4 */
+.h1{
+    text-indent: 50px; /* აკეთებს ტექსტის იდენტაციას და წევს მარჯვნივ */
+    letter-spacing: 5px; /* აკეთებს სიმბოლოებს შორის დაშორებას,შეგვიძლია გადავცეთ ნეგატიური მნიშვნელობაც და ასოები ერთმანეთში შეერთდება */
+    line-height: 1.8; /* აკეთებს ხაზებს შორის დაშორებას,იყენებენ დიდი ტექსტებზე */
+    word-spacing: 10px; /* აკეთებს space-ებს შორის დაშორებას */
+    white-space: nowrap; /* nowrap ტექსტს აგრძელებს მხოლოდ ერთ ხაზზე */
+    white-space: wrap; /* არის default-ი ჩვეულებრივი */
+    font-size: 100%; /* ადიდებს ან აპატარავებს ტექსტის ზომას */
+}
+
+/* 5 */
+.fontfamily{
+    /* არსებობს 5 სახის ფონტი serif sanserif monospace cursive fantasy */
+    font-family: serif; /* Georgia, Times Roman, Garamond */
+    font-family: sans-serif; /* Arial, Verdana */
+    font-family: monospace;
+    font-family: fantasy;
+    font-family: cursive; /* გავს ხელნაწერ ტექსტს */
+    font-family: 'Courier New', Courier, monospace; /* შეგვიძლია გადავცეთ რამოდენიმე ფონტი
+    თუ პირველმა ფონტმა არ იმუშავა ბრაუზერში ჩვენ გვექნება სათადარიგო ფონტები */
+
+}
+
+/* 6 */
+.fontweight{
+    font-weight: 900; /* ტექსტს აძლევს სისქეს,(thinnest 100) (normal 400) (bold 700) (thickest 900)  */
+    font-weight: bold;
+}
+
+/* 7 */
+/* css-ში არსებობს link-ის გასტილვის 5 ტიპი */
+
+a:link{ /* a:link ნიშნავს onvisited link რომელზეც ჯერ არგადავსულვართ */
+    color: red;
+    text-decoration: none; /* none ნიშნავს არაფელს */
+
+}
+
+a:visited{ /* link-ი რომელზეც გადავედით */
+    color: green;
+    text-decoration: none;
+
+}
+
+a:hover{ /* hower როდესაც link-ზე მაუსს მივიტანთ  */
+    color: hotpink;
+    text-decoration: underline; /* როდესაც link-ზე მაუსს მივიტანთ kink-ი გახდება ვარდისფერი და ქვემოთ გაუჩნდება ვარდისფერი გასმული ხაზი */
+}
+
+a:active{ /* როდესაც link-ს დავაჭერთ link-ი გალურჯდება და და დარჩება ქვემოთ გასმული ხაზი რომელიც გახდება ლურჯი */
+    color: blue;
+    text-decoration: underline;
+}
+
+/* 8 */
+a:link, a:visited{
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+a:hover, a:active{ /* როდესაც ღილაკზე მაუსს მივიტანთ */
+    background-color: rgb(14, 58, 14); /* ღიკალი შეიცვლის ფერს და გახდება მუქი მწვანე */
+}
