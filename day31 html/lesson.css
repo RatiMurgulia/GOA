@@ -1,0 +1,14 @@
+#body-id{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.active-day{
+    color: #00CC00;
+}
+
+.inactive-day{
+    color: #CCCCCC;
+}
+
