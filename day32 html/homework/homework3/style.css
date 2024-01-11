@@ -1,0 +1,48 @@
+table{
+    font-family: sans-serif;
+    position: relative;
+    text-indent: 30px;
+    box-sizing: border-box;
+    
+}
+
+th, td{
+    border: 1px solid;
+    padding-right: 30px; 
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+.classtr{
+    background-color: rgba(11, 123, 215, 0.641);
+}
+
+.class1{
+    background-color: rgb(155, 185, 207);
+}
+
+.class2{
+    background-color: rgba(198, 220, 234, 0.768);
+}
+    
+.class3{
+    background-color: rgb(155, 185, 207);
+}
+
+.class4{
+    background-color: rgba(198, 220, 234, 0.768);
+}
+
+.class5{
+    background-color: rgb(155, 185, 207);
+}
+
+.class6{
+    background-color: rgba(198, 220, 234, 0.768);
+}
+
+.class7{
+    background-color: rgb(155, 185, 207);
+}
+
+

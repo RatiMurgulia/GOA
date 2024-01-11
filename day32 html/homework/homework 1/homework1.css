@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+    position: relative;
+    left: 400px;
+}
+
+th{
+    border: 1px solid;
+    padding: 10px;
+    background-color: rgb(127, 212, 212);
+}
+
+td{
+    border: 1px solid;
+    padding: 3px;
+}
+
+/* all S.R class */
+.sr{
+    background-color: rgba(94, 243, 40, 0.871);
+    
+}
+
+/* all name class */
+.name{
+    background-color: rgba(17, 222, 17, 0.905);
+}
+
+/* all address class */
+.address{
+    background-color: rgb(171, 164, 32);
+}
+
+.number{
+    background-color: rgb(169, 71, 41);
+    
+}
+
+/* all country class */
+.country{
+    background-color: red;
+}
