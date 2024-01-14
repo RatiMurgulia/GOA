@@ -1,0 +1,63 @@
+*{ /* css resset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1 */
+.div1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 20px 50px;
+
+    border: 5px solid black;
+    padding: 50px;
+}
+
+.text{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 2 */
+.div2{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 20px 50px;
+    background: linear-gradient(green, blue, red, purple); /* linear-gradien ფერების შეზავება */
+    background: linear-gradient(to top, green, blue, red, purple); /* გადაეცემა 4 მნიშვნელობა ფერების გადასაადგილებლად 
+    to left, to right, to top, to botoom */
+    background: linear-gradient(45deg, green, blue, red, purple); /* 45deg-ის გამოყენებით ფერები დავხარეთ 45 გრადუსით */
+    background: linear-gradient(45deg, green, blue, red, purple); /* 45deg-ის გამოყენებით ფერები დავხარეთ 45 გრადუსით */
+    background: linear-gradient(45deg, green, blue, red, purple 50%); /* კონკრეტულ ფერს დავუწერეთ 50% და მან დაიკავა 50% ფერებში */
+}
+
+/* 3 */
+.div3{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 20px 50px;
+    background-color: rgba(100, 155, 210, 0.5); /* მეოთხე პარამეტრი 0.5 აღნიშნავს ფერის გამჭირვალობას,ყველაზე მკვეთრი არის 1 */
+    opacity: 12%; /* opacity განსაზღვრავს ელემენტის გამჭირვალობას */
+    border-top-right-radius: 40px; /* კონტეინერ ელემენტი მაღლა და მარჯვნივ დამრგვალდა 40%-ით */
+    border-radius: 50px; /* კონტეინერ ელემენტი ყველა მხრიდან დამრგვალდა 50px-ით */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
