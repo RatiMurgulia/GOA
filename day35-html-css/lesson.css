@@ -1,0 +1,154 @@
+/* 1 */
+.p1 a {
+    display: block;   /* <a> თეგი რომელიც იყო <p> თეგში გახდა block ელემენტი და გადავიდა ახალ ხაზზე */
+    border: #4478B1 solid;
+    text-decoration: none;
+  }
+
+  /* 2 */
+  .div{
+    border: 1px solid red;
+    box-shadow: 0 2px 4px yellow;
+    display: flex; /* flexbox-ი ქმნის მწკრივს ან სვეტს,flexbox-ი გამოიყენება კონტეინერში ელემენტების მოსაწყობად */
+    /* flexbox-ის გამოყენების შემდეგ გვერდი უფრო მოქნილი ხდება ყველა მოწყობილობაზე */
+  }
+
+p{
+  border: 1px solid green;
+  margin-left: 2px;
+}
+
+/* 3 */
+.nowrap {
+  padding: 20px;
+  border: 1px solid rgb(189, 185, 185);
+  display: flex;
+  flex-wrap: nowrap; /* nowrap ელემენტები რომლებიც არ ხვდებიან შემდეგ სტრიქონზე */
+
+}
+
+.wrap {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(189, 185, 185);
+  display: flex;
+  flex-wrap: wrap; /* wrap ელემენტები რომლებიც ხვდებიან შემდეგ სტრიქონზე */
+
+}
+
+/* 4 */
+#container1 {
+  display: flex;
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px;
+}
+
+#small-content {
+  border: 1px solid black;
+  margin-right: 2px;
+}
+
+#large-content {
+  border: 1px solid black;
+}
+
+/* 5 */
+#container2 {
+  border: 1px solid #818181;
+  box-shadow: 2px 2px #474747;
+  display: flex;
+}
+#item1 {
+  flex-grow: 1; /* flex-grow ზომაში ზრდის კონკრეტულ კონტეინერს */
+  border: 1px solid #868686;
+  box-shadow: 2px 2px black;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+#item2 {
+  flex-grow: 2;
+  border: 1px solid #868686;
+  box-shadow: 2px 2px black;
+  margin-right: 10px;
+}
+
+#item3 {
+  flex-grow: 3;
+  border: 1px solid #868686;
+  box-shadow: 2px 2px black;
+  margin-right: 5px;
+}
+
+/* 6 */
+#container3 {
+  display: flex;
+  border: 1px solid black;
+}
+
+.item {
+  flex-grow: 0; /* როდესაც ხელმისაწვდომი ზომა იქნება ეკრენზე ელემენეტები არ გაიზრდებიან */
+  border: 1px solid green;
+  margin-right: 2px;
+}
+
+
+/* 7 */
+#container4 {
+  padding: 20px;
+  border: 1px solid rgb(189, 185, 185);
+  box-shadow: 0 2px 4px #000000;
+  display: flex;
+}
+
+#flex-shrink1 {
+  flex-shrink: 1; /* flex-shrink არის flex-grow-ს საპირისპირო,როდესაც ადგილი არ არის კონტეინერში flex-shrink-ი მას აპატარავებს */
+  /* მნიშვნელობა განსაზღვრავს თუ რამდენად შემცირდება flex ელემენტი დანარჩენ ელემენტებთან შედარებით */
+  /* მაღალი მნიშვნელობა ნიშნავს რომ ნივთი უფრო მეტად შემცირდება */
+  flex-grow: 1;
+}
+
+#flex-shrink2 {
+  flex-shrink: 2;
+  flex-grow: 1;
+}
+
+/* 8 */
+/* მთლიანი body კონტენტი გავცენტრეთ */
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh; /* 100vh არის მთლიანი ეკრანის ზომა */
+}
+/*  */
+.main-div{
+  border: 2px solid black;
+  height: 600px;
+  display: flex; /* flex-ის გამოყენება ხდება მშობელ ელემენტზე,flex-ი ელემენტებს ალაგებს ჰორიზონტალურად */
+  flex-direction: row; /* row ელემენტებს ალაგებს ჰორიზონტალურად <div>-ში */
+  flex-direction: column; /* column ელემენტებს ალაგებს ვერტიკალურად <div>-შ */
+  flex-direction: row-reverse; /* row-reverse ელემენტებს ალაგებს ჰორიზონტალურად მარჯვნივ
+  მარცხენა კიდესთან მდგომი ელემენტი გადაინაცვლებს მარჯვნივ და მას გაყვება სხვა ელემენტებიც */
+
+  justify-content: flex-start; /* ელემენტებს ალაგებს დასაწყისში default */
+  justify-content: flex-end; /* ელემენტებს ალაგებს ბოლოში */
+  justify-content: center; /* ელემენტებს ალაგებს შუაში */
+  justify-content: space-between; /* კიდესთან მდგომი ელემენტები ერთმანეთთან დაშორებული არიან ერთმანეთს შორის სივრცის ნახევრის */
+  justify-content: space-around; /* ელემენტებს ალაგებს თავში შუაში და ბოლოში თანაბრად */
+  justify-content: space-evenly; /* კიდესთან დაშორება და ელემენტებს შორის დაშორება არის თანაბარი  */
+  gap: 20px; /* gap-ი გამოიყენება flex-ში ელემენტების ერთმანეთთან დასაშორებლად */
+
+  align-items: flex-start; /* ელემენტებს ალაგებს მაღლა */
+  align-items: center; /* ელემენტებს ალაგებს ცენტრში მარცხენა კიდესთან */
+  align-items: flex-end; /* ელემენტებს ალაგებს ქვემოთ ბოლოში */
+}
+
+.div1{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+

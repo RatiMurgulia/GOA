@@ -1,0 +1,195 @@
+/* 1 */
+.list1{
+    list-style: square inside none; /* <ul> სიის მრგვალ მარკერებს გადააქცევს კვადრატებად და კვადრატები გაყვება სიას */
+    list-style-type: square; /* <ul> სიის მრგვალი მარკერები გადაიქცევა კვადრატებად */
+    list-style-type: circle; /* <ul> სიის მრგვალ მარკერებს შიგნით გაუქრება ფერი და იქნება ცარიელი რგოლი */
+    list-style-type: none; /* <ul> სიიდან აქრობს მარკერებს */
+    background-color: red; /* შეგვიძლია მივანიჭოთ background ფერი */
+    color: blue; /* შეგვიძლია სიას მივანიჭოთ ფერი */
+    font-size: 18px; /* შეგვიძლია სია გავზარდოთ ზომაში */
+    text-align: center; /* შეგვიძლია სია გადავიყვანოთ ცენტრში და გავაყოლოთ მარკერები */
+    list-style-type: decimal-leading-zero; /* სიას თავში დაუწერს რიცხვებს: 01. 02. და ა.შ  */
+    list-style-type: decimal; /* სიას თავში დაუწერს რიცხვებს: 1. 2. და ა.შ */
+    list-style-type: lower-roman; /* სიას თავში დაუწერს პატარა რომაულ სიმბოლოებს: i. ii. და ა.შ */
+    list-style-type: upper-roman; /* სიას თავში დაუწერს დიდ რომაულ სიმბოლოებს: A. AA. და ა.შ */
+    text-transform: capitalize; /* გაადიდებს სიის პირველ სიმბოლოებს */
+    text-transform: uppercase; /* გაადიდებს ყველა სიმბოლოს */
+    text-transform: lowercase; /* დააპატარავებს ყველა სიმბოლოს */
+    list-style-type: upper-alpha; /* სიით დასაწყისში დაწერს დიდ ასოებს ანბანის მიხედვით: A. B. C. და ა.შ */
+    list-style-type: lower-alpha; /* სიის დასაწყისში დაწერს პატარა ასოებს ანბანის მიხედვით: a. b. c. და ა.შ */
+}
+
+/* 2 */
+li{
+    border: 2px solid black;
+}
+
+.listinside{
+    list-style-position: inside;  /* სიის მარკერებს ანთავსებს ფართობს შიგნით */
+}
+
+.listoutside{
+    list-style-position: outside; /* სიის მარკერებს ანთავსებს ფართობს გარეთ */
+}
+
+/* 3 */
+.list3{
+    list-style-image: url("download.jpeg"); /* სიაში მარკერების ნაცვლად ამატებს ფოტოებს */
+}
+
+/* 4 */
+/*
+.img{
+    transform: rotate(50deg); ფოტო შემობრუნდა 50 გრადუსით
+    transform: translateX(50px); translateY(50px) ფოტომ გადაიწია 50px-ით,translate-ს აქვს ორი მნიშვნელობა X და Y ღერძი
+    transform: translate(50px, 50px); იგივეა რაც წინა კოდში,პირველი X და მეორე Y
+    transform: translate(100px, 80px) rotate(90deg);
+}
+
+
+/* 5 */
+.img2{
+    transform: translateY(200px);
+    z-index: -1; /* z-index-ით <img> ელემენტის პოზიცია დავადაბლეთ */
+}
+
+.p1{
+    position: relative;
+    z-index: 10; /* z-index-ით <p> ელემენტის პოზიცია ავამაღლეთ და გავხადეთ პრიორიტეტული */
+    /* ამის შემდეგ <p> ელემენტი გამოჩნდა ფოტოზე */
+}
+
+
+
+
+
+/* styling forms */
+
+/* 1 */
+.form1{
+    background-color: black;
+}
+
+input{
+    border: 1px solid #FF9E03; /* <input> ელემენტებს უკეთებს border-ს გარშემო */
+    border: none; /* <input> ელემენტებს აშორებს border-ს */
+}
+
+label{
+    font-weight: bold; /* <label> ტექსტს უცვლის სტილს და უმატებს სისქეს */
+    color: #FF9E03; /* <label> ტექსტს უცვლის ფერს */
+    font-family: arial; /* <label> ტექსტს უცვლის სტილს */
+}
+
+input[type="text"] { /* შეგვიძლია მივწვდეთ კონკრეტულ <input> ელემენტს და მხოლოდ მისი გასტილვა მოვახდინოთ */
+    border: 1px solid green;
+    background-color: #17233B;
+}
+
+
+input[type="text"], input[type="email"] {
+    border: 1px solid yellow;
+    background-color: aqua;
+    font-weight: bold;
+    color: red; /* <input> ველში დაწერილი ტექსტი იქნება წითელი */
+}
+
+/* 2 */
+.form2 input[type="submit"]{ /* <form>-ს მივწვდით class-ით სახელად form2-ი და შემდეგ <form>-ში მივწვდით კონკრეტულ ელემენტს []ფრჩხილებით */
+    background-color: green;
+    border-radius: 15px; /* border-radius ამრგვალებს <input> ელემენტების კუთხეებს იმდენით რამდენ pixel-ს ან %-ს გადავცემთ მას */
+    /* შეგვიძლია სხვადასხვა კუთხეებისთვის გამოვიყენოთ სხვადასხვა მნიშვნელობები: top-left, top-right, bottom-right, and bottom-left. */
+    border: none;
+    font-weight: bold;
+    color: red;
+    width: 70px;
+    height: 25px;
+    font-size: 20px;
+}
+
+/* 3 */
+.form3 input[type="button"]:active { /* :active როდესაც მაუსს ღილაკზე დავაკლიკებთ და ხელს არგავუშვებთ */
+    background-color: green; /* button ღილაკის background ფერი იქნება მწვანე */
+    color: blue; /* button ღილაკის ტექსტის ფერი იქნება ჭითელი */
+    border: 1px solid yellow; /* მაუსზე დაკლიკების დროს button ღილაკი შეიცვლის ვიზუალს და მას ექნება border-ი გარედან */
+    border-radius: 10px; /* button ღილაკი ყველა მხრიდან დამრგვალდება 10px-ით */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
