@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+section{
+    display: flex;
+    background-color: #fff;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 360px;
+}
+
+div{
+    margin: 40px;
+}
+
+.p1{
+    
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    opacity: 30%;
+    letter-spacing: 5px;
+}
+
+h1{
+    font-family: Fraunces;
+    width: 300px;
+    font-size: 40px;
+    padding-top: 20px;
+    line-height: 1;
+}
+
+.p2{
+    font-size: 15px;
+    font-family: Montserrat;
+    padding-top: 20px;
+    width: 260px;
+    opacity: 80%;
+    line-height: 1.7;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-family: Fraunces;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    gap: 20px;
+}
+
+.span{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-family: sans-serif;
+    opacity: 80%;
+    font-weight: 500;
+}
+
+
+button{
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-top: 30px;
+}
+

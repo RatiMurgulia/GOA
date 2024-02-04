@@ -1,0 +1,64 @@
+/* position
+1) static = default
+2) absolute ელემენტი ზემოდან ფარავს ყველაფერს და პოზიციას იკავებს იქ სადაც მას უნდა,მას არ აქვს კონკრეტული გამოყოფილი ადგილი.
+3) relative ელემენტი იკავებს კონკრეტულ ადგილს და პოზიციას ვუცვლით მას.
+4) fixed ელემნტი იკავებს კონკრეტულ ადგილს და ეწებება ერთ ადგილს,საიტი რაცარუნდა ვსქროლოთ ელემნტი ყოველთვის გამოჩნდება ეკრანზე.
+5) sticky როდესაც ელემენტი გადაცემული მონაკვეთის კიდეს მიუახლოვდება ის მიეწებება მას და მუდმივად გამოჩნდება ეკრანზე.
+
+left: ;
+right: ;
+top
+bottom*/
+
+
+/* 1 */
+/* .div1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    top: 500px;
+    left: 500px;
+    z-index: 1; 
+}
+ 
+p{
+    position: relative;
+    z-index: 2;
+} */
+
+/* 2 */
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    /* z-index: 2;  */
+}
+
+.p1{
+    position: relative;
+    /* z-index: 1; */
+}
+
+/* 3 */
+/* როდესაც მშობელ ელემენტს ვუწერთ relative-ს და შვილ ელემენტს absolute-ს ან ორივეს absolute-ს
+შვილი ელემენტი იმოძრავებს მშობელი ელემენტის შიგნით 
+როდესად მშობელ ელემენტს გადავაადგილებთ შვილი ელემენტიც ავტომატურა გაყვება */
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 5px solid beige;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    top: 0;
+}

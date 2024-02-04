@@ -1,3 +1,39 @@
-.div1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    border: 1px solid red;
     display: flex;
+    height: 400px;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(8, 6, 10);
+}
+
+.div1{
+    border: 1px solid red;
+    width: 70px;
+    height: 70px;
+    background-color: coral;
+    display: flex;
+    color: aqua;
+}
+
+.div2{
+    border: 1px solid red;
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+}
+
+.div3{
+    border: 1px solid red;
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    display: flex;
+    margin-left: 40%;
 }
