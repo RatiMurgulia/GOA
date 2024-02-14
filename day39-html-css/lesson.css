@@ -1,0 +1,129 @@
+/* 1 */
+.div1{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.div1:active{
+    transform: translate(50px); /* ელემენტზე მაუსის დაკლიკებისას 50 px გადაიწევა ჰორიზონტალურად მარჯვნივ */
+}
+
+/* 2 */
+.div2{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.div2:hover{
+    transform: translate(25px, 10px); /* ელემენტზე მაუსის მიტანისას დაგაიწევა 25px მარჯვნივ და 10px ქვევით ვერტიკალურად */
+}
+
+/* 3 */
+.div3{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.div3:active {
+    transform: translate(-25px, 50px);   /* 25px მარცხნივ  და 50px ქვემოთ,უარყობითი მნიშვნელობები თარგმნის ელემენტს მარცხნივ და ზემოთ */
+  }
+
+
+/* 4 */
+/* scale ადიდებს ან აპატარავებს ელემენტს,მისი თავდაპირველი ზომა არის 1 */
+.blue {
+    width: 150px;
+    height: 150px;
+    background-color: #3498DB;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.blue:active {
+    transform: scale(1.5);  
+ }
+
+.yellow {
+    width: 150px;
+    height: 150px;
+    background-color: #DBBC34;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.yellow:active {
+    transform: scale(0.7);  
+}
+
+
+/* 5 */
+.div5:active {
+    transform: rotate(15deg);    /* დატრიალდება 15 გრადუსით საათის ისრის მიმართულებით */
+  }
+  
+.div5{
+    width: 150px;
+    height: 150px;
+    background-color: #3498DB;
+    border-radius: 20px;
+    margin: 40px;
+  }
+
+
+/* 6 */
+.div6{
+    width: 150px;
+    height: 150px;
+    background-color: #DBBC34;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.div6:active {
+    transform: rotate(-15deg);  /* დატრიალდება 15 გრადუსით საათის ისრის საპირისპიროდ რადგან გადავეცით უარყობითი მნიშვნელობა */
+}
+
+/* 7 */
+.card:active {
+    transform: rotate(30deg);
+    transform-origin: top left; /* trabsform-origin ელემენტს უცვლის წერტილს რომლის გარშემოც ხდება ბრუნვა */
+  }
+  
+.card {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #3498DB;
+    border-radius: 20px;
+    margin-left: 81px;
+    margin-top: 1px;
+    z-index: 10;
+  }
+  
+.empty {
+     height: 150px;
+     width: 150px;
+     margin: 80px;
+     border: 1px solid black;
+}
+
+
+/* 8 */
+.div8{
+    width: 150px;
+    height: 150px;
+    background-color: #3498DB;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.div8:active{
+    transform: translate(100px, 150px) 
+    rotate(70deg) scale(3.5);
+}

@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 1 */
+.row{
+    transition: 1s;
+}
+
+.row:hover{
+    transform: rotate(180deg) translateY(-10px);
+}
+
+.row:active{
+    transform: translateY(-100px);
+    color: blue;
+}
+
+
+/* 2 */
+.fb{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fb:hover{
+    transform: scale(1.2) translateX(-5px);
+    color: blue;
+}
+
+/* 3 */
+.button1{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 1s; /* transistion არის გადასვლები 1s = 1წამი */
+}
+
+.button1:hover{
+    background-color: green;
+    border-radius: 30px;
+    color: #fff;
+}
+
+/* 4 */
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 3s;
+}
+
+.div1:hover{
+    transform: translateX(200px); /* X ჰორიზონტალური Y ვერტიკალური */
+    /* transform: translate(200px, 200px); */
+    transform: rotate(45deg); /* rotate არის დატრიალება მაგ. 45გრადუსით */
+    transform: scale(2); /* scale ზრდის ელემენტის ზომას,default ზომა არის 1, 0.5 არის მისი ზომის ნახევარი */
+    /* transform: skewX(90deg); */
+    /* box-shadow: 0px 0px 30px ; */
+}
+
+/* 5 */
+p{
+    font-size: x-large; 
+    color: white;
+    width: 40%;   /* 40%=initial value */
+    background-color: blueviolet;
+    transition: width 3s;   /* width=property 3s=duration */
+
+}
+
+p:active{   /* active=trigger  */
+    width: 100%;   /* 100%=final value */
+}
+
+
+/* 6 */
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: #4169E1;
+    transition: width 1s, height 1s, 
+    background-color 1s;
+}
+  
+.div2:active{
+    width: 150px;
+    height: 150px;
+    background-color: #DC143C;
+}
+
+
+/* 7 */
+.div3{
+    display: flex;
+    margin-top: 300px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    transition: width 2s, background-color 1s;
+    transition-delay: 2s; /* delay დაყოვნება */
+}
+  
+.div3:active {
+    width: 200px;
+    background-color: red;
+}
