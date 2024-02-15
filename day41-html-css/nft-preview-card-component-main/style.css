@@ -1,0 +1,185 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(216, 50%, 16%);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* section */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 25px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: hsl(215, 32%, 27%);
+}
+
+/* main img */
+.main-img{
+    /* width: 340px; */
+    border-radius: 10px;
+}
+
+/* main-div */
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+}
+
+/* div-1 */
+.div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* first-p */
+.first-p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* second-p */
+.second-p{
+    margin-top: 20px;
+    width: 90%;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.5;
+}
+
+
+/* balance-p */
+.balance-p{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 20px;
+
+}
+
+
+.div-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* div-2 */
+.div-2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* last-p */
+.last-p{
+    display: flex;
+
+}
+
+
+/* avatar-img */
+.avatar-img{
+    width: 35px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main-img{
+    width: 380px;
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 20px;
+    border-style: none;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-p{
+    padding-top: 20px;
+    font-size:25px;
+    font-weight: bold;
+    width: 86%;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.second-p{
+    font-size: 20px;
+    width: 86%;
+    color: hsl(215, 32%, 27%);
+    
+}
+
+
+.balance-p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.avatar-img{
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50px;
+} */

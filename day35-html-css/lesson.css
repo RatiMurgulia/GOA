@@ -121,7 +121,7 @@ body{
   justify-content: center;
   height: 100vh; /* 100vh არის მთლიანი ეკრანის ზომა */
 }
-/*  */
+/*  */ 
 .main-div{
   border: 2px solid black;
   height: 600px;

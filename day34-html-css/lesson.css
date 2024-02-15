@@ -23,7 +23,7 @@
 li{
     border: 2px solid black;
 }
-
+ 
 .listinside{
     list-style-position: inside;  /* სიის მარკერებს ანთავსებს ფართობს შიგნით */
 }

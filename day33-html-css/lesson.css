@@ -32,7 +32,6 @@
     background: linear-gradient(to top, green, blue, red, purple); /* გადაეცემა 4 მნიშვნელობა ფერების გადასაადგილებლად 
     to left, to right, to top, to botoom */
     background: linear-gradient(45deg, green, blue, red, purple); /* 45deg-ის გამოყენებით ფერები დავხარეთ 45 გრადუსით */
-    background: linear-gradient(45deg, green, blue, red, purple); /* 45deg-ის გამოყენებით ფერები დავხარეთ 45 გრადუსით */
     background: linear-gradient(45deg, green, blue, red, purple 50%); /* კონკრეტულ ფერს დავუწერეთ 50% და მან დაიკავა 50% ფერებში */
 }
 

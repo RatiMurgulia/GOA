@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* header */
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* header-top */
+.header-top{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+/* header-top-left */
+.header-top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    gap: 20px;
+}
+
+/* header-top-left-p */
+.header-top-left p{
+    font-size: 13px;
+}
+
+/* header-top-right */
+.header-top-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 16%;
+}
+
+/* header-top-right-p */
+.header-top-right .language-p{
+    font-weight: bold;
+}
+
+/* header-top-right p hover */
+.header-top-right p:hover{
+    text-decoration: underline;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+/* title-menu-container */
+.title-menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+/* title menu container h1 */
+.title-menu-container h1{
+    color: red;
+    font-size: 30px;
+}
+
+/* navbar div title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+/* ul menu */
+.title-menu-container .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style-type: none;
+    font-weight: bold;
+    color: rgb(124, 95, 95);
+}
+
+/* ul hover */
+.title-menu-container li:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+    color: red;
+}
+
+/* navbar-buttons */
+.navbar-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17%;
+    margin: 0px 65px;
+}
+
+/* buttons */
+.navbar-buttons button{
+    margin: 15px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* navbar-buttons hover */
+.navbar-buttons button:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* navbar-buttons i */
+.navbar-buttons i{
+    font-size: 25px;
+}
+
+/* main-section */
+.main-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 65vh;
+    background-image: url("/day42-html-css/Project-dog/img/Dog-cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* main-section div */
+.main-section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 50%;
+    margin-left: 100px;
+}
+
+/* main-section div h1 */
+.main-section div h1{
+    font-size: 80px;
+    color: #fff;
+    line-height: 80px;
+}
+
+/* main-section div p */
+.main-section div p{
+    color: #fff;
+    width: 50%;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+/* main-section div button */
+.main-section div button{
+    margin-top: 40px;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    width: 180px;
+}
+
+/* main-section div button hover */
+.main-section div button:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* left-paw */
+.left-paw{
+    margin: 40px;
+    transform: rotate(-90deg);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* right-paw */
+.right-paw{
+    position: relative;
+    left: 1100px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+/* warning */
+.warning{
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+/* footer-section */
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 400px;
+}
+
+/* footer-section divs */
+.footer-section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* footer-section div h1 */
+.footer-section div h1{
+    font-size: 25px;
+    color: rgb(223, 17, 17);
+    margin-top: 20px;
+}
+
+/* footer-section div buttons */
+.footer-section div button{
+    padding: 13px 20px;
+    border-radius: 30px;
+    color: red;
+    background-color: #fff;
+    font-weight: bold;
+    border-color: red;
+    margin-top: 20px;
+}
