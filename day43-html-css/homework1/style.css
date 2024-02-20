@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    gap: 20px;
+    display: grid;
+    /* grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 1fr auto; */
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(5,auto);
+}
+
+.Title{
+    background-color: rgb(224, 176, 176);
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Menu{
+    background-color: rgb(151, 242, 151);
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/6;
+    grid-column: 1/2;
+
+    
+
+
+}
+
+.Main{
+    background-color: rgb(192, 171, 212);
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1/5;
+    grid-column: 2/6;
+}
+
+.Footer{
+    background-color: rgb(228, 228, 148);
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 6/5;
+    grid-column: 2/6;
+}

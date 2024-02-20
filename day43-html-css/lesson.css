@@ -1,0 +1,86 @@
+/* 1 */
+.parent-container{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(87, 0, 0);
+    border: 5px solid black;
+    box-sizing: border-box;
+
+    display: grid;
+    gap: 1rem; /* 1rem = 16px */
+    /* grid-template-columns: auto auto auto; */
+
+    /* grid-template-columns: repeat(3,auto); შეგვიძლია დავწეროთ მოკლედ repeat(3,auto) */
+
+    /* grid-template-columns: 200px 50px repeat(2,auto); */
+
+    grid-template-columns: auto auto auto;
+
+}
+
+.parent-container div{
+    background-color: rgb(18, 18, 28);
+}
+
+/* column გადაადგილდება ჰორიზონტალურად */
+/* row გადაადგილდება ვერტიკალურად */
+
+/* 1) row-star
+2) colum-star
+3) row-and
+4) column-and */
+
+/* 1rem = 16px */
+
+.parent-container .item-1{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2 */
+/* .container{
+    background-color: blueviolet;
+    display: grid;
+}
+
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+} */
