@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 50px 50px 100px 100px 30px 100px 100px 100px 100px ;
+    background-color: rgb(33, 207, 33);
+    height: 28vh;
+    gap: 10px;
+}
+.leopard{
+    background-image: url("/img/leopard.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/7;
+}
+.lion{
+    background-image: url("/img/lion.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/8;
+}
+.tiger{
+    background-image: url("/img/tiger.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 4/9;
+}
+.line-up{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border-bottom: 5px solid black;
+}
+.line-down{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 9/10;
+    border-top: 5px solid black;
+}
+.nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}

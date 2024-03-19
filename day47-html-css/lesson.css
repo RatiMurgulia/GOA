@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+/* 1 */
+@media (max-width: 600px) { /* max-width როდესაც დოკუმენტის სიგანე იქნება 600px ან ნაკლები */
+    body{
+        background-color: lightblue;
+    }
+}
+
+/* 2 */
+@media (max-width: 600px) { /* როდესაც დოკუმენტის სიგანე იქნება 600px ან ნაკლები */
+    .hide-element{
+        display: none; /* display: none; ელემენტი გაქრება  */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* როდესაც დოკუმენტის სიგანე იქნება 600px ან ნაკლები */

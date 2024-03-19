@@ -1,0 +1,63 @@
+
+/* 1 */
+.container{
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    gap: 1px;
+}
+.item{
+    background-color: red;
+}
+
+.item1{
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    grid-column-start: 2; /* დაიწყო მეორედან */
+    grid-column-end: span 3; /* span 3-მა დაიკავა მესამე სივრცე */
+}
+
+/* 1fr არის სივრცის 100%-ი, 2fr თითოეული არის სივრცის 50%-ი,fr არის ეკრანის ზომაზე მორგებული */
+/* 2 */
+.container2{
+    margin-top: 100px;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 200px 200px;
+    gap: 1px;
+}
+.container2 .item{
+    background-color: green;
+}
+.item-1{
+    /* grid-row: 1/3;
+    grid-column: 2/4; */
+    grid-area: 1 / 2 / 3 / 4; /* grid-area: row-start column-start row-end column-end */
+}
+
+/* 3 */
+.container3{
+    height: 400px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 100px);
+    border: 1px solid black;
+    justify-content: center; /* horizontal: start center end */
+    align-content: center; /* vertical: start center end */
+}
+.container3 div{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.container3 .order-item2{
+    background-color: red;
+    order: -1; /* order: -1; მეორე ელემენტი 1-ით გადავიდა უკან და გახდა პირველი ელემენტი,0 არის მისი თავდაპირველი index-ი*/
+}
+/*  */
