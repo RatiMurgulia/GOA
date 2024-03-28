@@ -7,7 +7,7 @@ console.log(name) // კონსოლში გამოტანს შედ
 // camel case style
 let myName = 'rati' // let არის ცვლადის ახალი ვერსია რომელიც უფრო გამოყენებადია
 let myAge = 10
-console.log(myName + myAge) // კონსოლში გამოიტანს შედეგს rati10,javascript-ში string-ი და int-ი ერთმანეთს ემატება!
+console.log(myName + myAge) // კონსოლში გამოიტანს შედეგს rati10,javascript-ში string-ი და integer-ი ერთმანეთს ემატება!
 
 
 let floatNumber = 10.5
