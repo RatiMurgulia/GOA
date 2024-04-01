@@ -30,7 +30,7 @@ console.log(myName + myAge + myDay)
 
 let num = '5'
 let sum = num + 5
-console.log(typeof sum) // 
+console.log(typeof sum) // string
 
 
 // if else
